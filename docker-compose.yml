@@ -4,3 +4,7 @@ services:
     build: .
     ports:
       - 1880:1880
+    volumes:
+      - nodered-data:/data
+volumes:
+  nodered-data

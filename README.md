@@ -9,4 +9,4 @@ Run `docker-compose up` and head to [http://localhost:1880](http://localhost:188
 
 ## Data directory
 
-The data directory is in the path `/data` inside a container, so if you want to save your work, `docker cp` it or map it to a host folder.
+The data directory is in a named volume (`nodered-data`).
